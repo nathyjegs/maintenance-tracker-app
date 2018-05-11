@@ -1,0 +1,50 @@
+.row {
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.row--gutters {
+	margin-right: -4.0625rem;
+}
+
+.row--gutters-large {
+	margin-right: -6.25rem;
+}
+
+.row--gutters > div {
+	padding-right: 4.0625rem;
+}
+
+.row--gutters-large > div {
+	padding-right: 6.25rem;
+}
+
+.row__b-margin-until-medium {
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 820px) {
+
+	.row__b-margin-until-medium {
+		margin-bottom: 0;
+	}
+
+	.row__medium-4 {
+		float: left;
+		width: 37%;
+	}
+
+	.row__medium-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.row__medium-8 {
+		float: left;
+		width: 63%;
+	}
+}

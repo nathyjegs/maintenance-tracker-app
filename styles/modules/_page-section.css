@@ -1,0 +1,15 @@
+.page-section {
+	padding: 1.4rem;
+}
+
+@media (min-width: 1020px) {
+	.page-section {
+		padding: 4.5rem 0;
+	}
+}
+
+
+.page-section--blue {
+	background-color: #7943A2;
+	color: white;
+}

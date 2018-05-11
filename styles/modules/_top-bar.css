@@ -1,0 +1,8 @@
+.top-bar {
+	position: relative;
+	/*background-color: #2A2E36;*/
+	border: 0;
+	border-bottom: 10px solid #7943A2;
+	padding: .625rem 0;
+	padding-top: 4rem;
+}

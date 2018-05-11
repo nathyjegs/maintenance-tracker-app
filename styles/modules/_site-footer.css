@@ -1,0 +1,12 @@
+.site-footer {
+	background-color: #7943A2;
+	color: white;
+	padding: .5rem 0;
+	text-align: center;
+}
+
+.site-footer__login {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
