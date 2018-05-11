@@ -1,0 +1,21 @@
+.material-icons {
+	margin-right: 1rem;
+	font-size: 1.125rem;
+	color: #E28E22;
+	position: absolute;
+	left: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 720px) {
+	.material-icons {
+		font-size: 2.5rem;
+	}
+}
+
+
+.materials-icons-title {
+	position: relative;
+}

@@ -1,0 +1,27 @@
+.main-nav {
+	text-align: center;
+}
+
+.main-nav--pull-right {
+	float: right;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	vertical-align: middle;
+}
+
+.main-nav li {
+	list-style: none;
+	float: left;
+	padding-top: .75rem;
+	padding-right: 1.25rem;
+}
+
+.main-nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 200;
+}

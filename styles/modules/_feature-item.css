@@ -1,0 +1,10 @@
+.feature-item {
+	position: relative;
+	padding-left: 3rem;
+	padding-bottom: 2.5rem;
+}
+
+.feature-item__title {
+	font-size: 1.875;
+	margin-bottom: .8rem;
+}
