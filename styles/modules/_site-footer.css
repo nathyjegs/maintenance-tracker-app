@@ -10,3 +10,14 @@
 	bottom: 0;
 	width: 100%;
 }
+
+.site-footer__admin {
+	padding-left: .625rem;
+	color: white;
+	text-decoration: none;
+}
+
+.site-footer__admin:hover,
+.site-footer__admin:active {
+	color: #E28E22;
+}

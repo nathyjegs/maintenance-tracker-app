@@ -1,0 +1,43 @@
+.admin-content {
+	position: relative;
+	top: 6rem;
+	margin: 0 auto;
+	height: auto;
+	min-height: 100%
+	max-height: 31rem;
+	width: 70%;
+	
+
+
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.admin-content__table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 2rem auto;
+}
+
+
+
+.admin-content__table th,
+.admin-content__table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #7943a2;
+}
+
+.admin-content__table tr:hover {
+  background-color: #E28E22;
+  cursor: pointer;
+}
+
+.admin-content__request-detail {
+	padding: 1.5rem;
+	max-width: 50%;
+}
+
+.admin-content__btn {
+	float: left;
+	margin: 0 .625rem;
+}
