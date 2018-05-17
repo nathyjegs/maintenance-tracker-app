@@ -1,5 +1,5 @@
 
-.login-intro {
+.user-intro {
 	/*position: relative;*/
 	border: 0;
 	border-bottom: 10px solid #7943A2;
@@ -8,12 +8,13 @@
 	padding-left: 3rem;
 }
 
-.login-intro h2 {
+.user-intro h2 {
 	font-size: 1.2rem;
 	border-bottom: 0;
+	vertical-align: middle;
 }
 
-.login-intro__title {
+.user-intro__title {
 	padding-bottom: 0;
 	border-bottom: 0;
 }

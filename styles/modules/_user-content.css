@@ -1,0 +1,20 @@
+.user-content {
+	width: 25rem;
+	padding: 2rem;
+	border: 1px solid #fff; 
+	margin: auto;
+	margin-top: 2rem;
+	color: #7943A2; 
+
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.user-content__form {
+	width: 18.75rem;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.user-content p {
+	margin-bottom: 1.7rem;
+}

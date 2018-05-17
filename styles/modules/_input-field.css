@@ -1,0 +1,13 @@
+.input-field {
+	border: 1px solid #d9dbdd;
+	padding: .625rem;
+	outline: none;
+	border-radius: .3125rem;
+	width: 90%;
+	margin-bottom: 1.2rem;
+}
+
+.input-field:hover,
+.input-field:active {
+	border: 2px solid #bbbbde;
+}

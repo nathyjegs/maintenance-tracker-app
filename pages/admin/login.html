@@ -16,7 +16,7 @@
 				</a>
 			</div>
 			<div class="site-header__btn-container">
-				<a href="../signup/index.html" class="btn">Signup</a>
+				<a href="../user/signup.html" class="btn">Signup</a>
 			</div>
 			<nav class="main-nav main-nav--pull-right">
 			</nav>
@@ -24,41 +24,39 @@
 	</header>
 
 	<main>
-		<section>
-			<div class="login-intro">
-				<h2><i class="material-icons login-intro__title">lock</i>ADMIN LOGIN</h2>
-				<h5>Enter your credentials below</h5>
-			</div>
-		</section>
+			<section>
+				<div class="user-intro">
+					<i class="material-icons material-icons__login user-intro__title">lock</i>
+					<h2>LOGIN TO EQUILAB</h2>
+				</div>
+			</section>
 
-		<section>
+			<section>
 
-			<div class="login-content">
-				<form action="#" class="login-content__form">
-					<fieldset>
-						<P>
-							<label for="login-username">USERNAME</label>
-							<input type="text" id="login-username" class="login-content__input-field" autofocus />
-						</P>
-
-						<P>
-							<label for="login-password">PASSWORD</label>
-							<input type="password" id="login-password" class="login-content__input-field">
-						</P>
+				<div class="user-content">
+					<form action="#" class="user-content__form">
+						<h2>ADMINISTRATOR</h2>
+						<h5>Enter your credentials below</h5>
+						<div>
+						    <input type="text" name="username" placeholder="Username" class="input-field" autofocus>
+						</div>
+						<div>
+								<input type="text" name="password" placeholder="Password" class="input-field">
+						</div>
 
 						<p><a href="#">Forgotten Password?</a></p>
 
 						<input type="submit" value="Log In" class="btn btn--round">
-					</fieldset>				
-				</form>
-			</div>
 
-		</section>
-	</main>
+					</form>
+				</div>
+
+			</section>
+		</main>
 
 	<footer class="site-footer site-footer__login">
 		<div class="wrapper">
-			<p>Copyright &copy; 2018 Equilab. All rights reserved. <a href="#" class="btn btn--orange btn--round">Get in Touch</a><a class="site-footer__admin" href="#">Admin</a></p>
+			<p>Copyright &copy; 2018 Equilab. All rights reserved. <a href="#" class="btn btn--orange btn--round">Get in Touch</a><a class="site-footer__admin" href="login.html">Admin</a></p>
 		</div>
 	</footer>
 
