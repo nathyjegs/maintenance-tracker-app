@@ -4,7 +4,7 @@
 	color: #7943A2;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.headline {
 		font-size: 2.875rem;
 	}
@@ -22,7 +22,7 @@
 	font-size: 1.2rem;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.headline--small {
 		font-size: 1.875rem;
 	}

@@ -7,6 +7,30 @@
 	cursor: pointer;
 }
 
+.btn--shrink {
+	background-color: #7943A2;
+	color: #fff;
+	padding: .4rem .4rem;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: .8rem;
+	vertical-align: middle;
+}
+
+@media (min-width: 820px) {
+	.btn--shrink {
+		background-color: #7943A2;
+		color: #fff;
+		padding: .65rem 1.2rem;
+		display: inline-block;
+		text-decoration: none;
+		cursor: pointer;
+		font-size: 1rem;
+	}
+}
+
+
 .btn--orange {
 	background-color: #E28E22;
 }
@@ -15,7 +39,7 @@
 	font-size: 1rem;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.btn--large {
 		font-size: 1.35rem;
 		padding: 1.2rem 2.0rem;

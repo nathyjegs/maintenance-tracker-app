@@ -2,6 +2,18 @@
 	position: relative;
 	border: 0;
 	border-bottom: 10px solid #7943A2;
+	min-height: 30rem;
+}
+
+@media (min-width: 820px) {
+	.main-background {
+		position: absolute;
+		border: 0;
+		border-bottom: 10px solid #7943A2;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
+	}
 }
 
 .main-background-image__text-content {
@@ -21,7 +33,7 @@
 	font-size: 1.7rem;	
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.main-background-image__title {
 		font-size: 4rem;
 		}
@@ -35,7 +47,7 @@
 	margin:0;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.main-background-image__subtitle {
 		font-size: 3rem;
 		}
@@ -50,7 +62,7 @@
 	margin-right: auto; 
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.main-background-image__description {
 		font-size: 2rem;
 		}

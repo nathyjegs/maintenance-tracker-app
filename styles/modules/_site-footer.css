@@ -5,6 +5,17 @@
 	text-align: center;
 }
 
+@media (min-width: 820px) {
+	.site-footer {
+		background-color: #7943A2;
+		color: white;
+		padding: .5rem 0;
+		text-align: center;
+		position: relative;
+		top: 46rem;
+	}
+}
+
 .site-footer__login {
 	position: fixed;
 	bottom: 0;

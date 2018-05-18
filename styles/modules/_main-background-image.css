@@ -3,6 +3,13 @@
 	width: 100%;
 	height: auto;
 	display: block;
-	max-height: 49.5rem;
+	min-height: 30rem;
+
+	/*max-height: 49.5rem;*/
 }
 
+@media (min-width: 820px) {
+	.main-background-image {
+		height: 100%
+		}
+}

@@ -2,9 +2,11 @@
 	padding: 1.4rem;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 820px) {
 	.page-section {
 		padding: 4.5rem 0;
+		position: relative;
+		top: 47rem;
 	}
 }
 

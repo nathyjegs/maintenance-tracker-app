@@ -1,12 +1,23 @@
 .site-header {
 	position: absolute;
-	padding: .625rem 0;
+	padding: .2rem 0;
 	width: 100%;
 	z-index: 2;
 	display: inline-block;
-	/*background-color: rgba(47, 85, 114, .3); */
 	background-color: rgba(40, 35, 36, .5);
 	overflow: hidden; 
+}
+
+@media (min-width: 820px) {
+	.site-header {
+		position: absolute;
+		padding: .625rem 0;
+		width: 100%;
+		z-index: 2;
+		display: inline-block;
+		background-color: rgba(40, 35, 36, .5);
+		overflow: hidden;
+	}
 }
 
 .site-header__btn-container {
@@ -17,9 +28,24 @@
 	position: absolute;
 	top: 0;
 	background-color: #E28E22;
-	padding: 1.5rem 2rem;
+	padding: .5rem .625rem;
+}
+
+@media (min-width: 820px) {
+	.site-header__logo {
+		position: absolute;
+		top: 0;
+		background-color: #E28E22;
+		padding: 1.5rem 2rem;
+	}
 }
 
 .site-header img {
-	max-width: 6rem;
+	max-width: 5rem;
+}
+
+@media (min-width: 820px) {
+	.site-header img {
+		max-width: 6rem;
+	}
 }

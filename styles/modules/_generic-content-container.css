@@ -4,7 +4,7 @@
 	margin: 0 0 1.65rem 0;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 820px) {
 	.generic-content-container p {
 		font-size: 1.125rem;
 	}
