@@ -24,6 +24,26 @@
 @import "./modules/_status.css";
 */
 
+/*Our global stles that are used throughout*/
+
+* {
+	box-sizing: border-box;
+} 
+
+body {
+	font-family: 'Lato', 'Helvetica', sans-serif;
+	margin: 0;
+}
+
+a {
+	color: #E28E22;
+}
+
+a:hover,
+a:active {
+	color: #282324;
+}
+
 .admin-content {
 	position: relative;
 	top: 4.5rem;
