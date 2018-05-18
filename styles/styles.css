@@ -1,31 +1,32 @@
 /*we would be importing our modular css files here*/
-/*@import "./global/_global.css";
-@import "./modules/_main-nav.css";
-@import "./modules/_site-header.css";
-@import "./modules/_btn.css";
-@import "./modules/_main-background.css";
-@import "./modules/_main-background-image.css";
-@import "./modules/_wrapper.css";
-@import "./modules/_page-section.css";
-@import "./modules/_headline.css";
-@import "./modules/_row.css";
-@import "./modules/_material-icons.css";
-@import "./modules/_generic-content-container.css";
-@import "./modules/_section-title.css";
-@import "./modules/_feature-item.css";
-@import "./modules/_site-footer.css";
-@import "./modules/_top-bar.css";
-@import "./modules/_user-content.css";
-@import "./modules/_user-intro.css";
-@import "./modules/_input-field.css";
-@import "./modules/_admin-content.css";
-@import "./modules/_filter.css";
-@import "./modules/_pagination.css";
-@import "./modules/_status.css";
-*/
+
+@import url("global/_global.css");
+@import url("modules/_main-nav.css");
+@import url("modules/_site-header.css");
+@import url("modules/_btn.css");
+@import url("modules/_main-background.css");
+@import url("modules/_main-background-image.css");
+@import url("modules/_wrapper.css");
+@import url("modules/_page-section.css");
+@import url("modules/_headline.css");
+@import url("modules/_row.css");
+@import url("modules/_material-icons.css");
+@import url("modules/_generic-content-container.css");
+@import url("modules/_section-title.css");
+@import url("modules/_feature-item.css");
+@import url("modules/_site-footer.css");
+@import url("modules/_top-bar.css");
+@import url("modules/_user-content.css");
+@import url("modules/_user-intro.css");
+@import url("modules/_input-field.css");
+@import url("modules/_admin-content.css");
+@import url("modules/_filter.css");
+@import url("modules/_pagination.css");
+@import url("modules/_status.css");
+
 
 /*Our global stles that are used throughout*/
-
+/*
 * {
 	box-sizing: border-box;
 } 
@@ -271,7 +272,6 @@ select.filter {
 	display: block;
 	min-height: 30rem;
 
-	/*max-height: 49.5rem;*/
 }
 
 @media (min-width: 820px) {
@@ -669,7 +669,6 @@ hr {
 
 .top-bar {
 	position: relative;
-	/*background-color: #2A2E36;*/
 	border: 0;
 	border-bottom: 10px solid #7943A2;
 	padding: .625rem 0;
@@ -726,7 +725,6 @@ hr {
 
 
 .user-intro {
-	/*position: relative;*/
 	border: 0;
 	border-bottom: 10px solid #7943A2;
 	padding: .625rem 0;
@@ -799,3 +797,4 @@ hr {
 
 
 
+*/
