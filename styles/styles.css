@@ -462,6 +462,29 @@ select.filter {
 	color: white;
 }
 
+.pagination {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;  
+}
+
+.pagination a {
+  color: #7943a2;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #E28E22;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  color: #555;
+}
+
 .row::after {
 	content: "";
 	clear: both;
