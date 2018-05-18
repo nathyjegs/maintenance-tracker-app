@@ -1,6 +1,6 @@
 .admin-content {
 	position: relative;
-	top: 6rem;
+	top: 4.5rem;
 	margin: 0 auto;
 	height: auto;
 	min-height: 100%
@@ -12,12 +12,24 @@
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
+@media (min-width: 820px) {
+	.admin-content {
+		top: 8rem;
+	}
+}
+
 .admin-content__table {
   border-collapse: collapse;
   width: 70%;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
+  font-size: .8rem
 }
 
+@media (min-width: 820px) {
+	.admin-content__table {
+		font-size: 1rem;
+	}
+}
 
 
 .admin-content__table th,
@@ -35,6 +47,7 @@
 .admin-content__request-detail {
 	padding: 1.5rem;
 	max-width: 50%;
+	margin-bottom: 5rem;
 }
 
 .admin-content__btn {

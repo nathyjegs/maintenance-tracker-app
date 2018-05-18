@@ -1,0 +1,16 @@
+.filter {
+	width: 250px;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+.filter option {
+	white-space: pre;
+	font-size: .8rem;
+	min-height: 1.2rem;
+}
+
+select.filter {
+	line-height: 2.15;
+}

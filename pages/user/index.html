@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Equilab - User</title>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="../../styles/styles.css">
+</head>
+<body>
+
+	<header class="site-header site-header__login ">
+		<div class="wrapper">
+			<div class="site-header__logo">
+				<a href="../../index.html" class="home--brand">
+					<img src="../../images/logo (2).png">
+				</a>
+			</div>
+			<div class="site-header__btn-container">
+				<a href="#" class="btn btn--shrink">Signout</a>
+			</div>
+			<nav class="main-nav main-nav--pull-right">
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="wrapper wrapper__user-content">
+			<div>
+				<div class="row row--gutters">
+					<div class="row__medium-4 row__b-margin-until-medium">
+						<div class="user-content wrapper--medium">
+						    <form action="">
+						        <div class="form-header">
+						            <div>
+						                <span>Make a request</span>
+						            </div>
+						        </div>
+						        <span>
+						            <hr/>
+						        </span>
+						        <div>
+						          <input type="text" name="equipment" placeholder="Equipment" class="input-field" autofocus>
+						        </div>
+						        <div>
+						          <input type="text" name="brand" placeholder="Brand" class="input-field">
+						        </div>
+						        <div>
+						        	<input type="text" name="fault" placeholder="Fault" class="input-field">
+						        </div>
+						        <div>
+						          <textarea name="description" placeholder="Describe the Issue" cols="25" rows="10" class="input-field"></textarea>
+						        </div>
+
+						        <p>
+						            <button type="submit" class="btn btn--round">Make request</button>
+						        </p>
+
+						    </form>
+						</div>
+						
+					</div>
+					<div class="row__medium-8">
+						<div class="generic-content-container">
+							<div>
+							<h3>Welcome</h3>
+							<span class="user-content__info">Ade Aluko<span> adealuko1@email.com </span></span>
+							<div class="user-content user-content__request-detail">
+								<h4 class="__request-block">Requests Made</h4>
+								<span>
+								  <select name="filter" class="filter">
+								    <option value="">Filter by...</option>
+								    <option value="">Approved</option>
+								    <option value="">Pending</option>
+								    <option value="">Rejected</option>
+								    <option value="">Resolved</option>
+								  </select>
+								</span>
+								<div class="__request-title">
+								<span>
+									<a href="./Request-info.html">Heading</a>
+								</span>
+									  <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae. Lorem ipsum dolor sit amet
+									  consectetur adipisicing elit. Sapiente sit illo soluta iste alias perspiciatis itaque architecto
+									  sed culpa esse?
+									  </p>
+									  <hr>
+									  <span class=" status status__rejected">Rejected</span>
+									  <span class="status-date"> 12 May</span>
+								</div>
+								<div class="__request-title">
+								<span>
+								  <a href="./Request-info.html">Heading</a>
+								</span>
+								    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae. Lorem ipsum dolor sit amet
+								    consectetur adipisicing elit. Sapiente sit illo soluta iste alias perspiciatis itaque architecto
+								    sed culpa esse?
+								    </p>
+								    <hr>
+								    <span class=" status status__accepted">Accepted</span>
+								    <span class="status-date"> 12 May</span>
+								  </div>
+							</div>
+								    
+							<div class="pagination">
+							  <a href="#">&laquo;</a>
+							  <a href="#">1</a>
+							  <a class="active" href="#">2</a>
+							  <a href="#">3</a>
+							  <a href="#">4</a>
+							  <a href="#">5</a>
+							  <a href="#">6</a>
+							  <a href="#">&raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</main>
+
+	<footer class="site-footer site-footer__user">
+		<div class="wrapper">
+			<p>Copyright &copy; 2018 Equilab. All rights reserved. <a href="#" class="btn btn--orange btn--round">Get in Touch</a><a class="site-footer__admin" href="../admin/login.html">Admin</a></p>
+		</div>
+	</footer>
+
+</body>
+</html>

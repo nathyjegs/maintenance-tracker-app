@@ -1,0 +1,23 @@
+.status {
+	border-radius: .3125rem;
+	padding: 1px;
+	color: white;
+	padding: .5rem .5rem;
+}
+
+.status__rejected {
+	background-color: #f44336
+
+}
+
+.status__accepted {
+	background-color: #4CAF50;
+}
+
+.status__resolved {
+		background-color: #E28E22;
+}
+
+hr {
+	margin-bottom: 1rem;
+}

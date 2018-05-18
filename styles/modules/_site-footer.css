@@ -18,7 +18,14 @@
 
 .site-footer__login {
 	position: fixed;
-	bottom: 0;
+	top: 44.5rem;
+	bottom: 0rem;
+	width: 100%;
+}
+
+.site-footer__user {
+	position: relative;
+	top: 6rem;
 	width: 100%;
 }
 
