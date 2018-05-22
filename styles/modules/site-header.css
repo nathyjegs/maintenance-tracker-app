@@ -27,6 +27,7 @@
 .site-header__logo {
 	position: absolute;
 	top: 0;
+	left: .25rem;
 	background-color: #E28E22;
 	padding: .5rem .625rem;
 }
@@ -42,6 +43,7 @@
 
 .site-header img {
 	max-width: 5rem;
+
 }
 
 @media (min-width: 820px) {

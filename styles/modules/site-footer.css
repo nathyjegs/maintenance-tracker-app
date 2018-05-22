@@ -16,16 +16,25 @@
 	}
 }
 
-.site-footer__login {
-	position: fixed;
-	top: 44.5rem;
-	bottom: 0rem;
+.site-footer__signup {
+	background-color: #7943A2;
+	color: white;
 	width: 100%;
+	text-align: center;
+}
+
+.site-footer__login {
+	background-color: #7943A2;
+	color: white;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
 }
 
 .site-footer__user {
 	position: relative;
-	top: 6rem;
+	top: 1rem;
 	width: 100%;
 }
 
