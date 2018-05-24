@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/nathyjegs/maintenance-tracker-app#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "joi": "^13.3.0"
+    "joi": "^13.3.0",
+    "mongoose": "^5.1.2",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
