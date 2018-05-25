@@ -1,27 +1,22 @@
 import Joi from 'joi';
 import express from 'express';
+import bodyParser from 'body-parser';
+// import routes from './server/routes/';
+import requests from './server/models/requests.js';
+
+
+
 const app = express();
-app.use(express.json());
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 const port = (process.env.PORT || 3000);
-
-const requests = [
-	{ id: 1, name: 'chioma'},
-	{ id: 2, name: 'musa'},
-	{ id: 3, name: 'fola'}
-];
 
 app.get('/', (req, res) => {
 	res.status(200).json({
 		message: 'Maintenance Tracker API'
 	});
 });
-
-// app.get('*', (req, res) => {
-// 	res.status(404).json({
-// 		error: "The resource you're looking for is not available"
-// 	});
-// });
 
 app.get('/api/requests', (req, res) => {
 	res.send(requests);
@@ -91,3 +86,5 @@ function validateRequest(request) {
 app.listen(port, () => {
 	console.log(`Listening on port ${port}`);
 });
+
+export default app;
