@@ -3,6 +3,7 @@
 	padding: .2rem 0;
 	width: 100%;
 	z-index: 2;
+	top: 0;
 	display: inline-block;
 	background-color: rgba(40, 35, 36, .5);
 	overflow: hidden; 
