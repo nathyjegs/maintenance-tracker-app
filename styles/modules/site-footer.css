@@ -38,6 +38,11 @@
 	width: 100%;
 }
 
+.site-footer__dashboard {
+	position: relative;
+	top: 10rem;
+	width: 100%;
+}
 .site-footer__admin {
 	padding-left: .625rem;
 	color: white;
