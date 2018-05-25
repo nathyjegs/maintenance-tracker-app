@@ -10,7 +10,7 @@
     "start": "nodemon index.js --exec babel-node",
     "lint": "eslint . --ext .json --ext .md",
     "pretest": "npm run lint",
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
